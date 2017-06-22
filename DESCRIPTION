@@ -1,0 +1,31 @@
+Package: coexnet
+Type: Package
+Title: coexnet: An R package to build CO-EXpression NETworks from
+        Microarray Data
+Version: 0.99.21
+Author: Juan David Henao [aut,cre], Liliana Lopez-Kleine [aut], Andres
+        Pinzon-Velasco [aut]
+Maintainer: Juan David Henao <judhenaosa@unal.edu.co>
+Description: Extracts the gene expression matrix from GEO DataSets
+        (.CEL files) as a AffyBatch object. Additionally, can make the
+        normalization process using two different methods (vsn and
+        rma). The summarization (pass from multi-probe to one gene)
+        uses two different criteria (Maximum value and Median of the
+        samples expression data) and the process of gene differentially
+        expressed analisys using two methods (sam and acde). The
+        construction of the co-expression network can be conduced using
+        two different methods, Pearson Correlation Coefficient (PCC) or
+        Mutual Information (MI) and choosing a threshold value using a
+        graph theory approach.
+License: LGPL
+LazyData: TRUE
+Depends: R (>= 3.4)
+Imports: affy, siggenes, GEOquery, vsn, igraph, acde, Biobase, limma,
+        graphics, stats, utils, STRINGdb, SummarizedExperiment, minet,
+        rmarkdown
+Suggests: RUnit, BiocGenerics, knitr
+VignetteBuilder: knitr
+biocViews: GeneExpression, Microarray, DifferentialExpression,
+        GraphAndNetwork, NetworkInference, SystemsBiology,
+        Normalization, Network
+RoxygenNote: 6.0.1

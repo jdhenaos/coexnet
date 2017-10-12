@@ -142,7 +142,6 @@ test_geneSymbol <- function(){
   checkEquals(final_table$ID[1],"Os03g0669200")
   checkEqualsNumeric(dim(final_table)[1],6)
   checkEquals(rownames(final_table)[1],"118")
-  checkTrue(is.factor(final_table$probe))
   
   ## Errors
   

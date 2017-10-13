@@ -1,8 +1,9 @@
-CHANGES IN VERION 0.1.0
+CHANGES IN VERSION 0.1.0
 
 -----------------------
 
 NEW FEATURES
 
-	First submission
 	18/04/17 --> changing the CCP function.
+	23/06/17 --> Released in Biocondonductor-devel
+	12/10/17 --> geneSymbol error test fixed.

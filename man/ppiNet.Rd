@@ -4,11 +4,15 @@
 \alias{ppiNet}
 \title{Create a protein-protein interaction network}
 \usage{
-ppiNet(molecularIDs = NULL, file = NULL, speciesID = 9606,
-  evidence = c("neighborhood", "neighborhood_transferred", "fusion",
-  "cooccurence", "homology", "coexpression", "coexpression_transferred",
-  "experiments", "experiments_transferred", "database", "database_transferred",
-  "textmining", "textmining_transferred", "combined_score"))
+ppiNet(
+  molecularIDs = NULL,
+  file = NULL,
+  speciesID = 9606,
+  evidence = c("neighborhood", "neighborhood_transferred", "fusion", "cooccurence",
+    "homology", "coexpression", "coexpression_transferred", "experiments",
+    "experiments_transferred", "database", "database_transferred", "textmining",
+    "textmining_transferred", "combined_score")
+)
 }
 \arguments{
 \item{molecularIDs}{A vector of IDs recognized by STRING database to create a PPI network from them.}

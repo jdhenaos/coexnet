@@ -25,7 +25,7 @@
 #' 
 #' # The matrix have 200 genes and 20 samples
 #' 
-#' n <- 200
+#' n <- 1000
 #' m <- 20
 #' 
 #' # The vector with treatment samples and control samples
